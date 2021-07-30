@@ -1,0 +1,15 @@
+Step 1: Start Cloud Shell
+gcloud auth list
+gcloud config list project
+
+Step 2: Enable APIs
+gcloud services enable compute.googleapis.com         
+gcloud services enable containerregistry.googleapis.com  
+gcloud services enable aiplatform.googleapis.com
+
+Step 3: Create a Cloud Storage Bucket
+BUCKET_NAME=gs://$GOOGLE_CLOUD_PROJECT-bucket
+gsutil mb -l us-central1 $BUCKET_NAME
+
+Step 4: Alias Python 3
+alias python=python3
