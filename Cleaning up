@@ -1,0 +1,2 @@
+To delete the endpoint you deployed, navigate to the Endpoints section of your Vertex console and click the delete icon.
+To delete the Storage Bucket, using the Navigation menu in your Cloud Console, browse to Storage, select your bucket, and click Delete.
